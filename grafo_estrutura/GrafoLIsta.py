@@ -14,17 +14,13 @@ class GrafoLista(Grafo):
         direcionado: bool = False,
         ponderado: bool = False
     ):
-        # 1. Inicializa o estado básico na classe mãe (self.vertices, direcionado, ponderado)
         super().__init__(direcionado=direcionado, ponderado=ponderado)
         
-        # 2. Instancia a estrutura interna da lista de adjacência vazia
         self.adjacencia: dict = {}
 
-        # 3. Se houver vértices iniciais vindos da factory, adiciona todos agora
         if vertices is not None:
             self.adicionar_vertice(vertices)
 
-        # 4. Se houver arestas iniciais vindas da factory, adiciona todas agora
         if arestas is not None:
             self.adicionar_aresta(arestas)
 

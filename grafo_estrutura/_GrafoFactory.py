@@ -1,4 +1,3 @@
-# grafo_factory.py
 from .GrafoMatriz import GrafoMatriz
 from .GrafoLIsta import GrafoLista
 
