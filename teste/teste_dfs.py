@@ -1,5 +1,4 @@
 from grafo_estrutura.Grafo import Grafo
-# Certifique-se de que o seu arquivo dfs.py contém a função DFS
 from algoritmos.dfs import DFS 
 
 def exibir_resultados_dfs(grafo, descoberta, finalizacao):
